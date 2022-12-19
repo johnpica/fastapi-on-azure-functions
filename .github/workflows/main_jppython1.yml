@@ -65,6 +65,6 @@ jobs:
           app-name: 'jpPython1'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D29C6630A42F4B89B147E263744805F8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A423835CEBA84374AB8EECAA1A975454 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
