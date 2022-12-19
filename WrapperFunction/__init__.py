@@ -6,7 +6,7 @@ from FastAPIApp import app  # Main API application
 @app.get("/sample")
 async def index():
     return {
-        "info": "Try /hello/Shivani for parameterized route.",
+        "info": "Hello World.",
     }
 
 
